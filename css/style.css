@@ -1,0 +1,143 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    
+}
+h1 {
+    font-family: giddyup-std, sans-serif;
+   color: #dfe0e2;
+   font-weight: 400;
+   font-size: 49px;
+   font-style: normal;
+}
+
+.sm-icons {
+    left: -80px;
+}
+header .sm-icons {
+    top: 30px;
+}
+
+footer .sm-icons {
+    bottom: 15px;
+}
+.sm-icons ul{
+    list-style: none;
+    text-align: right;
+    margin-left: 20px;
+}
+.sm-icons li {
+    display: inline;
+    padding-left: 5px;
+}
+
+
+.hero {
+    background:linear-gradient(#ec8da1, #e7718b);
+    width: 100%;
+    color: #faeff0;
+}
+.content {
+    padding: 35px 0px;
+}
+h2 {
+    font-size: 33px;
+
+}
+.hero p {
+    padding-right: 75px;
+}
+.hero .btn {
+    padding: 5px 8px;
+    background: linear-gradient(#575b5a, 
+    #282727);
+    color: #a2a2a2;
+    text-align: center;
+}
+.hero .btn:hover {
+   background-color: gold;
+
+}
+.main-top {
+    background-color: #f4f4f6;
+    width: 100%;
+    border-bottom: 10px solid #fbe3e7;
+    padding: 35px 0px;
+}
+ h3 {
+    font-size: 20px;
+    color: #282727;
+}
+
+.main-top ,.main-bottom
+ p {
+    font-size: 12px;
+    color: #c7c7c9;
+}
+.main-bottom {
+    padding-top: 35px 0px;
+}
+
+
+.main-bottom span {
+    font-size: 12px;
+    color: #282727;
+    font-style: italic;
+    font-weight: bold;
+}
+.qoute {
+    position: relative;
+    margin-top: 25px;
+}
+.qoute p {
+    position: absolute;
+    z-index: 2;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.qoute img {
+    position: relative;
+    z-index: 1;
+    padding: 0px;
+}
+footer {
+    background-color: black;
+    width: 100%;
+    padding: 35px 0px;
+}
+footer p {
+    font-size: 10px;
+    color: #c7c7c9;
+   
+}
+
+/* @media */
+@media screen and (max-width: 375px) {
+    header .sm-icons {
+        top: 5px;
+        right: 50px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .hero {
+        color: #575b5a;
+        text-align: center;
+    }
+    .hero p {
+        padding:0px;
+    }
+}
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+}
